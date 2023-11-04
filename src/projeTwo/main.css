@@ -1,0 +1,80 @@
+
+*{
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+/* background-color:  black;
+color: aliceblue; */
+}
+
+.navbar-logo>img{
+height: 30px;
+width: 100px;
+margin: 20px 10px;
+
+}
+.navbar-logo{
+    border-bottom: 1px solid white ;
+    padding: 4px 24px;
+}
+
+.navbar-img{
+height: 250px;
+width: 70%;
+margin-top: 2%;
+margin-left: 15%;
+border-radius:15px ;
+}
+
+.navbar-text{
+    margin: 10px 50px;
+}
+
+.navbar-text>p{
+margin-top: 5px;
+max-width: 500px;
+
+}
+
+.cards 
+{ 
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px;
+    
+}
+.fa{
+    color: red;
+}
+
+.card {
+
+margin-right: 15px;
+
+
+}
+.card-main{
+margin-top: 10px;
+
+}
+.card-span{
+font-weight: bold;
+}
+.card-sold{
+
+position:absolute;
+width: 100px;
+text-align: center;
+font-weight: bold;
+background-color: aliceblue;
+padding: 3px 6px;
+margin: 10px;
+
+}
+
+.cards-img{
+
+    border-radius: 15px;
+}
